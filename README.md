@@ -40,4 +40,50 @@ A **console-driven Online Food Ordering System** developed in **Java** that allo
 ## ▶️ How to Run
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/OnlineFoodOrderingSystem.git
+   git clone https://github.com/Arunagiri666/OnlineFoodOrderingSystem.git
+
+After cloning, open the project in your preferred IDE. You can use IntelliJ IDEA, Eclipse, or any other IDE that supports Java development.
+
+Make sure you have the Java Development Kit (JDK) installed on your system. This project requires JDK 8 or above. Also ensure that the JDK is properly configured in your IDE settings.
+
+Inside the project folder, navigate to the src/ directory. This is where all the Java source code files are stored.
+
+In the src/ folder, locate the file named Food.java. This file contains the main() method and serves as the entry point of the application.
+
+To run the program, you have multiple options:
+
+If you are using IntelliJ IDEA, right-click on the Food.java file and select Run 'Food.main()'.
+
+If you are using Eclipse, right-click on the Food.java file and select Run As → Java Application.
+
+If you prefer running from the command line, open a terminal inside the src/ folder and execute:
+
+bash
+Copy code
+javac Food.java
+java Food
+Once the program starts running, the console menu will be displayed. You will be asked to choose whether you want to log in as a User or as an Admin.
+
+If you choose the User option, you will be able to:
+
+Browse the list of hotels
+
+View menus for each hotel
+
+Add food items to your cart
+
+Place orders
+
+View your order history with receipts
+
+If you choose the Admin option, you will be able to:
+
+Log in with an admin username and password
+
+View admin details and permissions
+
+Add, edit, or remove hotels
+
+Manage hotel menus by adding, editing, or removing food items
+
+Search hotels or menus and view their details
